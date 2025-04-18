@@ -7,7 +7,7 @@ type ReverseResult struct {
 	Lat         float64  `json:"lat"`          // Lat is the latitude of the place.
 	Lon         float64  `json:"lon"`          // Lon is the longitude of the place.
 	Address     struct {
-		County        string `json:"county"`                   // County is the county of the place.
+		Country        string `json:"country"`                   // County is the county of the place.
 		City          string `json:"city"`                     // City is the city of the place.
 	} `json:"address"` // Address contains detailed address information.
 }
