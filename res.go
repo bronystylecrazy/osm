@@ -8,8 +8,8 @@ type ReverseResult struct {
 	Licence     string  `json:"licence"`      // Licence is the licence information for the data.
 	OsmType     string  `json:"osm_type"`     // OsmType is the type of the OpenStreetMap object (e.g., node, way, relation).
 	OsmID       int     `json:"osm_id"`       // OsmID is the unique identifier for the OpenStreetMap object.
-	Lat         string  `json:"lat"`          // Lat is the latitude of the place.
-	Lon         string  `json:"lon"`          // Lon is the longitude of the place.
+	Lat         float64  `json:"lat"`          // Lat is the latitude of the place.
+	Lon         float64  `json:"lon"`          // Lon is the longitude of the place.
 	Class       string  `json:"class"`        // Class is the classification of the place (e.g., place, highway).
 	Type        string  `json:"type"`         // Type is the type of the place (e.g., city, street).
 	PlaceRank   int     `json:"place_rank"`   // PlaceRank is the rank of the place.
